@@ -1,0 +1,588 @@
+body{
+	font-size: 16px;
+}
+
+.beforeHeader{
+	width: 100%;
+	background-color: #000;
+}
+
+#header-nav{
+	background-color: white;
+	border-radius: 0;
+	border: 0;
+	margin-bottom: 0;
+}
+
+.container{
+	width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.navbar-brand{
+	padding: 0;
+	margin-right: 20px;
+}
+
+div.navbar-brand h1{
+	margin-bottom: -15px;
+	margin-top: 7px;
+	margin-left: 35px;
+	text-shadow: 1px 3px 3px black;
+	color:#E74D4D;
+	font-style: italic;
+}
+
+div.navbar-brand h1:hover{
+	text-shadow: 1px 3px 4px black;
+}
+
+div.navbar-brand a {
+	text-decoration: none;
+}
+
+ul#nav-list a {
+	padding-top: 20px;
+	color: black;
+}
+
+ul#nav-list a:hover {
+	color: black;
+	font-weight: bold;
+}
+
+ul#nav-list span{
+	margin-left: 10px;
+}
+
+div.navbar-header button{
+	margin-left: 28px;
+	margin-top: 10px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+   border: 1px solid #E74D4D;
+}
+
+ul#nav-list{
+	text-align: center;
+} 
+
+
+
+/*END HEADER*/
+
+
+/*BODY CONTENT*/
+
+.stadiumback {
+    background-image: url('../images/Stadium1.jpg');
+        width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    -ms-background-size: cover;
+    -o-background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    background-size: cover;
+    position: relative;
+}
+
+.stadiumback:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: rgba(0,0,0,0.9);
+
+}
+
+#middle{
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+#middle h2{
+	color: white;
+}
+
+#middle a{
+	text-decoration: none;
+}
+
+.tile1, .tile2, .tile3, .tile4, .tile5, .tile6, .tile7, .tile8, .tile9{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+#fifa img:hover{
+	background-color: white;
+}
+
+#madden img:hover{
+	background-color: white;
+}
+
+#ufc img:hover{
+	background-color: white;
+}
+
+
+.row{
+	margin: 0;
+}
+
+button#forShow{
+	background: transparent;
+	border: 1px solid white;
+	color: white;
+	height: 40px;
+	margin-bottom: 15px;
+	border-radius: 6px;
+	width: 250px;
+	height: 50px;
+}
+
+button#forShow:hover{
+	font-weight: bold;
+}
+
+
+div#subscribe{
+   width: 100%;
+   height: auto;
+   background-color: #E74D4D;
+   padding-top: 10px;
+   padding-bottom: 10px;
+   padding-left: 80px;
+   padding-right: 80px;
+}
+
+div#subscribe h2{
+	text-transform: uppercase;
+	margin: 0;
+	color: white;
+}
+
+div#subscribe button{
+	text-transform: uppercase;
+	background: transparent;
+	width: 150px;
+	height: 40px;
+	float: right;
+	border-radius: 0px;
+	border: 1px solid white;
+	color: white;
+	transition: 0.3s ease;
+}
+
+div#subscribe button:hover{
+	color: black;
+	font-weight: bold;
+	background-color:white;
+	border-radius: 2px;
+}
+
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header, .container>.navbar-collapse, .container>.navbar-header {
+	margin-right: 0;
+}
+
+h2#mobileGames{
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: underline;
+	margin-bottom: 50px;
+	margin-top: 25px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+ .tile7 img:hover, .tile8 img:hover, .tile9 img:hover{
+   	box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px;
+   }
+
+.tile1 img:hover, .tile2 img:hover, .tile3 img:hover, .tile4 img:hover, .tile5 img:hover, .tile6 img:hover {
+	box-shadow: 0 0 10px white, 0 0 40px white, 0 0 80px;
+
+}
+
+div#subscribe2{
+	background-color: #E74D4D;
+	color: white;
+	text-transform: uppercase;
+	padding-left: 80px;
+	padding-right: 80px;
+	width: 100%;
+	height: auto;
+}
+
+div#subscribe2 h2{
+	margin-top: 15px;
+}
+
+#button2{
+	text-transform: uppercase;
+	background: transparent;
+	width: 150px;
+	height: 40px;
+	float: right;
+	border: 1px solid white;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	transition: 0.3s ease;
+}
+
+div#subscribe2 #button2:hover{
+	background-color: white;
+	color: black;
+	font-weight: bold;
+	transition: all 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms
+	border:1px solid white;
+	border-radius: 2px;
+}
+
+div#footerBox{
+	width: auto;
+	height: 150px;
+	padding-top: 20px;
+	padding-left: 130px;
+}
+
+div#footerBox a{
+	float: left;
+	color: black;
+	margin-left: 25px;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: .9em;
+}
+
+div#footerBox a:hover{
+	font-weight: bold;
+}
+
+div#socialMedia{
+	width: auto;
+	height: auto;
+	float: right;
+	padding-top: 20px;
+	padding-right: 180px;
+}
+
+div#socialMedia span{
+	margin-right: 25px;
+	font-size: 1.5em;
+}
+
+div#socialMedia a{
+    color: black;
+}
+
+div#socialMedia a:hover{
+	font-size: 1.1em;
+}
+
+div#socialMedia p{
+	text-transform: uppercase;
+	color: black;
+	font-size: .9em;
+	font-weight:bold;
+	margin-bottom: 15px;
+}
+
+.panel-footer{
+	background-color: rgb(200,200,200);
+}
+
+div#afterFooter{
+	background-color: rgb(225,225,225);
+	height: 100px;
+}
+
+
+
+/****** Large Devices Only ******/
+@media (min-width: 1200px){
+.visible-lg {
+	display: inline-block!important;
+}
+
+}
+
+
+
+/****** Medium Devices Only *******/
+@media (min-width: 992px) and (max-width: 1199px) {
+.visible-md {
+	display: inline-block!important;
+}
+
+div#subscribe2 h2{
+	font-size: 1.4em;
+	margin-top: 22px;
+}
+
+div#footerBox{
+	width: 100%;
+	float: none;
+	padding-left: 130px;
+	height: 90px;
+}
+
+div#footerBox a{
+	font-size: 1.3em;
+}
+
+div#socialMedia {
+		width: 100%;
+	float: none;
+	padding-left: 360px;
+	padding-top: 0;
+}
+
+div#socialMedia p{
+	font-size: 1.1em;
+	margin-left: 10px;
+}
+
+div#socialMedia span{
+	margin-right: 35px;
+	font-size: 1.5em;
+}
+
+div#subscribe2 #button2{
+	margin-top: 15px;
+}
+
+}
+
+
+
+/****** Small Devices Only ******/
+@media (min-width: 768px) and (max-width: 991px) {
+.navbar-nav {
+	float: none;	
+}
+
+div#subscribe{
+	text-align: center;
+}
+
+div#subscribe h2{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 3em;
+	font-weight: bold;
+	padding-top: 2px;
+	margin-bottom: 15px;
+}
+
+div#subscribe button{
+	float: none;
+	border-radius: 0;
+	width: 850px;
+	height: 70px;
+	font-size: 3em; 
+	margin-left: -15px;
+}
+
+#sub{
+	text-align: center;
+}
+
+div#subscribe2{
+	text-align: center;
+}
+
+div#subscribe2 h2{
+	font-size: 3em;
+	margin-bottom: 15px;
+}
+
+div#subscribe2 #button2{
+	width: 850px;
+	height: 70px;
+	font-size: 3em;
+    float: none;
+    margin-left: -20px;
+    margin-bottom: 20px;
+}
+
+button#forShow {
+	height: 70px;
+	width: 400px;
+	font-size: 2em;
+}
+
+#middle h2{
+	font-size: 4em;
+}
+
+#middle img{
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+}
+
+ul#nav-list a {
+	font-weight: bold;
+}
+
+.tile7 img{
+	width: 600px;
+}
+
+.tile8 img{
+	width: 600px;
+}
+
+.tile9 img{
+	width: 600px;
+}
+
+#mobileGames{
+	font-size: 3.2em;
+	margin-top: 35px;
+	margin-bottom: 65px;
+}
+
+div#footerBox a{
+	float: none;
+	font-size: 1.5em;
+	font-weight: bold;
+}
+
+div#footerBox{
+	padding-left: 70px;
+	width: 100%;
+	height: 100px;
+
+}
+
+hr{
+	height: 1px;
+	width: 650px;
+	background-color: black;
+}
+
+div#socialMedia{
+	width: 100%;
+	float: none;
+	text-align: center;
+	padding-right: 0;
+}
+
+div#socialMedia p{
+	font-size: 1.8em;
+	margin-bottom: 25px;
+}
+
+div#socialMedia span{
+	font-size: 3em;
+}
+
+}
+
+
+
+
+/****** Extra Small Devices Only ******/
+@media (max-width: 767px) {
+ul#nav-list a:hover {
+	color: #E74D4D;
+	background-color: #000;
+	font-weight: bold;
+}
+
+div#subscribe h2{
+	text-align: center;
+	margin-bottom: 10px;
+	font-size: 1.3em;
+	font-weight: bold;
+	padding-top: 2px;
+}
+
+div#subscribe button{
+	float: none;
+	border-radius: 0;
+	width: 350px;
+	margin-left: -25px;
+}
+
+div#subscribe2{
+	text-align: center;
+}
+
+div#subscribe2 h2{
+	font-size: 1.1em;
+	font-weight: bold;
+}
+
+div#subscribe2 #button2 {
+	float: none;
+	margin-left: -25px;
+	width: 350px;
+}
+
+#sub{
+	text-align: center;
+}
+
+ul#nav-list a{
+	font-size: .6em;
+}
+
+.visible-sm {
+	display: inline-block!important;
+}
+
+div#footerBox{
+	float: none;
+	padding-left: 5px;
+	height: 10px;
+}
+
+div#footerBox a{
+	font-size: .6em;
+	font-weight: bold;
+}
+
+div#socialMedia{
+	float: none;
+	padding-top: none;
+	padding-left: 145px;
+	padding-right: 0;
+}
+
+div#socialMedia p{
+	font-size: .8em;
+}
+
+div#socialMedia a{
+	font-size: .8em;
+}
+
+div#socialMedia span{
+	margin-right: 10px;
+}
+
+hr#hrone{
+	background-color: black;
+	height: 1px;
+}
+
+}
+
+
+/** Super Extra Small Devices Only**/
+@media (max-width: 479px) {
+ul#nav-list a:hover {
+	color: #E74D4D;  
+	background-color: #000;
+	font-weight: bold;
+}
+}
